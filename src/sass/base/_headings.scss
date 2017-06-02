@@ -1,0 +1,30 @@
+
+h1{
+  text-indent: -5000px;
+  width: 0;
+  height: 0;
+
+  &:after{
+    content: "";
+    display: block;
+    height: 4.84875em;
+    width: 3.30625em;
+    background: url($company-logo) 0 0 no-repeat;
+    background-size: contain;
+    top: 0.5625em;
+    left: 0;
+    position: absolute;
+  }
+}
+h2{
+  font-size: 1.375em; //22
+  font-weight: 500;
+  color: $banner-txt-color;
+  margin: 0.95em 0 0 2.7em;
+}
+h3{
+  font-size: 1em;
+}
+h4{
+
+}

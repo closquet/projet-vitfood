@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 export default class ListElement extends Component {
     render() {
         return (
-            <li>
+            <li className={`resto-list__resto --${ this.props.open?"open":"closed" }`}>
                 <Link to={ `/details/${ this.props.slug }` }>
                     <Place { ...this.props } />
                 </Link>

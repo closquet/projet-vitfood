@@ -1,12 +1,24 @@
-/* hepl-dw/vitfoud-client
- *
- * /src/sass/styles.scss - Main styles for vitfoud
- *
- * coded by leny@flatLand!
- * started at 22/04/2017
- */
 
-html {
-    position: relative;
-    // …
-}
+@import "settings/core";
+
+
+@import "generic/reset";
+@import "generic/box-sizing";
+@import "generic/visually-hidden";
+
+
+@import "base/page";
+@import "base/headings";
+@import "base/header";
+@import "base/main";
+
+
+@import "components/main-nav__about";
+@import "components/main-nav__back";
+@import "components/resto-list__resto";
+
+
+
+
+
+//

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700');
+
+/*
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$global-font-size: 16px;
+$global-line-height: 1.5;
+$system-fonts: Roboto, sans-serif;
+
+$company-logo: '../img/logo.svg';
+
+$site-bcg-color: #ffffff;
+$dark-gray: #575757;
+$red-quick: #D41C3A;
+$patina: #639A8F;
+$San-Felix: #0B6207;
+
+$global-txt-color: invert($site-bcg-color);
+
+$banner-txt-color: $site-bcg-color;
+$banner-bcg-color: $red-quick;
+
+$closed-restaurant-txt-color: $dark-gray;
+$closed-restaurant-bcg-color: $site-bcg-color;
+$closed-restaurant-hover-txt-color: $site-bcg-color;
+$closed-restaurant-hover-bcg-color: $dark-gray;
+
+$open-restaurant-txt-color: $global-txt-color;
+$open-restaurant-bcg-color: $site-bcg-color;
+$open-restaurant-hover-txt-color: $site-bcg-color;
+$open-restaurant-hover-bcg-color: $global-txt-color;
+
+$comment-txt-color: $global-txt-color;
+
+$submit-bcg-color: $patina;
+$submit-txt-color: $site-bcg-color;
+$submit-hover-bcg-color: $site-bcg-color;
+$submit-hover-txt-color: $patina;
+
+$retour-txt-color: $site-bcg-color;
+$retour-bcg-color: $red-quick;
+$retour-hover-txt-color: $red-quick;
+$retour-hover-bcg-color: $site-bcg-color;
+
+$apropos-icon-color: $site-bcg-color;
+
+$ouvert-msg-txt-color: $San-Felix;
+
+$heart-enable-icon-color: $red-quick;
+$heart-disable-icon-color: $dark-gray;
