@@ -9,22 +9,31 @@ h1{
     display: block;
     height: 4.84875em;
     width: 3.30625em;
-    background: url($company-logo) 0 0 no-repeat;
-    background-size: contain;
-    top: 0.5625em;
+    background: url($icones) 0 0 no-repeat;
+    background-size: 4.87em;
+    top: 0;
     left: 0;
     position: absolute;
   }
 }
 h2{
-  font-size: 1.375em; //22
+  font-size: 1.2em;
   font-weight: 500;
   color: $banner-txt-color;
-  margin: 0.95em 0 0 2.7em;
+  padding: 0.8em 0 0 0;
+  text-align: center;
 }
 h3{
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 h4{
-
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

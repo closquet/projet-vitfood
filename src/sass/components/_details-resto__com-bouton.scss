@@ -1,0 +1,21 @@
+.details-resto__com-bouton{
+  display: block;
+  width: 13em;
+  height: 2.4em;
+  padding: 0.4em 0;
+  border-radius: 0.25em;
+  text-align: center;
+  color: $submit-txt-color;
+  background-color: $submit-bcg-color;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 12px -4px $dark-gray;
+  font-family: Roboto, sans-serif;
+
+  &:hover{
+    color: $submit-hover-txt-color;
+    background-color: $submit-hover-bcg-color;
+    border: 1px solid $submit-hover-txt-color;
+  }
+}

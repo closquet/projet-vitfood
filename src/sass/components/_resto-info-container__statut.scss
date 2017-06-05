@@ -1,0 +1,12 @@
+.resto-info-container__statut {
+  position: absolute;
+  right: 0;
+  top: 1.8em;
+}
+
+.resto-info-container--open{
+  .resto-info-container__statut{
+    color: $ouvert-msg-txt-color;
+    font-weight: 700;
+  }
+}

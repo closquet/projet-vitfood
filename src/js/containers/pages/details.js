@@ -68,7 +68,7 @@ export default class DetailsPageContainer extends Container {
         }
 
         return (
-            <div>
+            <div className="details-resto">
                 <PlaceInfo { ...this.state.currentPlace } />
                 <PlaceHours { ...this.state.currentPlace } />
                 <PlaceMap { ...this.state.currentPlace } />

@@ -12,24 +12,24 @@ import PropTypes from "prop-types";
 export default class Place extends Component {
     renderOpenState() {
         if ( this.props.open ) {
-            return ( <span>{ "Ouvert" }</span> );
+            return ( <span className={`resto-info-container__statut`}>{ "Ouvert" }</span> );
         }
 
-        return ( <span>{ "Fermé" }</span> );
+        return ( <span className={`resto-info-container__statut`}>{ "Fermé" }</span> );
     }
 
     renderAddress() {
-        return ( <address>{ this.props.address }</address> );
+        return ( <address className={`resto-info-container__adresse`}>{ this.props.address }</address> );
     }
 
     renderDistance() {
-        return ( <em>{ `${ this.props.distance }m` }</em> );
+        return ( <em className={`resto-info-container__distance`}>{ `${ parseInt(this.props.distance) }m` }</em> );
     }
 
     render() {
         return (
-            <div>
-                <strong>{ this.props.name }</strong>
+            <div className={`resto-info-container resto-info-container${ this.props.open?"--open":"--closed" }`}>
+                <strong className={`resto-info-container__nom`}>{ this.props.name }</strong>
                 { this.renderAddress() }
                 { this.renderDistance() }
                 { this.renderOpenState() }

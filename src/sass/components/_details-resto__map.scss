@@ -1,0 +1,11 @@
+.details-resto__map {
+  width: 100%;
+  height: auto;
+  border: 1px solid $light-gray;
+  margin-bottom: 1.5em;
+
+  & img{
+    width: 100%;
+    display: block;
+  }
+}

@@ -34,7 +34,7 @@ export default class PlaceComments extends Component {
         return (
             <div>
                 <h4>{ "Commentaires" }</h4>
-                <Link to={ `/details/${ this.props.slug }/comment` }>{ "Ajouter un commentaire" }</Link>
+                <Link className="details-resto__com-bouton" to={ `/details/${ this.props.slug }/comment` }>{ "Ajouter un commentaire" }</Link>
                 { $content }
             </div>
         );

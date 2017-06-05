@@ -12,10 +12,10 @@ import PropTypes from "prop-types";
 export default class PlaceInfo extends Component {
     render() {
         return (
-            <div>
-                <h3>{ this.props.name }</h3>
-                <address>{ this.props.address }</address>
-                <p>
+            <div className="details-resto__resto-info">
+
+                <address className="details-resto__resto-adresse">{ this.props.address }</address>
+                <p className="details-resto__resto-distance">
                     <span>{ "Distance : " }</span>
                     <strong>{ `${ this.props.distance }m` }</strong>
                 </p>
@@ -29,3 +29,4 @@ PlaceInfo.propTypes = {
     "address": PropTypes.string.isRequired,
     "distance": PropTypes.number.isRequired,
 };
+//<h3>{ this.props.name }</h3>

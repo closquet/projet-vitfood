@@ -14,7 +14,7 @@ import ListElement from "./element";
 export default class List extends Component {
     render() {
         return (
-            <ul>
+            <ul className={ "resto-list" }>
                 { this.props.places.map( ( oPlace ) => (
                     <ListElement key={ oPlace.slug } { ...oPlace } />
                 ) ) }

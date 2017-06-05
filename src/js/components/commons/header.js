@@ -44,7 +44,10 @@ export default class Header extends Component {
 
         return (
             <header>
-                <h1>{ "Vitfoud" }</h1>
+                <a href="#/">
+                    <h1>{ "Vitfoud" }</h1>
+                </a>
+
                 <h2>{ this.props.pageTitle }</h2>
                 { this.renderNav() }
             </header>

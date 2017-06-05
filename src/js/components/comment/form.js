@@ -62,7 +62,7 @@ export default class CommentForm extends Component {
 
         if ( this.state.hasError ) {
             $error = (
-                <div>{ "Veuillez remplir tous les champs !" }</div>
+                <div className="form-alert-msg">{ "Veuillez remplir tous les champs !" }</div>
             );
         }
 

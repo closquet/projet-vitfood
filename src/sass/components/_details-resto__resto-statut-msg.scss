@@ -1,0 +1,21 @@
+.details-resto__resto-statut-msg {
+  width: 4em;
+  height: 1.2em;
+  font-weight: 700;
+  text-indent: -16.2em;
+  font-size: 1.5em;
+  position: absolute;
+  overflow: hidden;
+  top: 2.9em;
+  margin-left: -2em;
+  text-transform: uppercase;
+  left: 50%;
+
+  &--open{
+    color: $ouvert-msg-txt-color;
+  }
+
+  &--closed{
+    color: $closed-restaurant-txt-color;
+  }
+}

@@ -1,0 +1,22 @@
+form{
+  margin-top: -1em;
+}
+
+input, select, textarea{
+  display: block;
+  margin-bottom: 1em;
+  padding: .4em;
+}
+
+textarea{
+  margin-bottom: 2em;
+  width: 100%;
+  max-width: 20em;
+  height: 6em;
+}
+
+label:after{
+  content: ' (Requis)';
+  color: $red-quick;
+  font-size: .6em;
+}

@@ -14,20 +14,30 @@
 
 $global-font-size: 16px;
 $global-line-height: 1.5;
+$global-letter-spacing: 0.005em;
 $system-fonts: Roboto, sans-serif;
 
-$company-logo: '../img/logo.svg';
+$icones: '../img/icones.svg';
 
 $site-bcg-color: #ffffff;
 $dark-gray: #575757;
+$light-gray: #A5A5A5;
+$very-light-gray: #E0E0E0;
 $red-quick: #D41C3A;
 $patina: #639A8F;
 $San-Felix: #0B6207;
+
+$about-content-txt-color: $dark-gray;
+
+$com-content-txt-color: $dark-gray;
 
 $global-txt-color: invert($site-bcg-color);
 
 $banner-txt-color: $site-bcg-color;
 $banner-bcg-color: $red-quick;
+
+$horaire-border-top-color: $very-light-gray;
+$com-border-bottom-color: $very-light-gray;
 
 $closed-restaurant-txt-color: $dark-gray;
 $closed-restaurant-bcg-color: $site-bcg-color;
@@ -38,8 +48,6 @@ $open-restaurant-txt-color: $global-txt-color;
 $open-restaurant-bcg-color: $site-bcg-color;
 $open-restaurant-hover-txt-color: $site-bcg-color;
 $open-restaurant-hover-bcg-color: $global-txt-color;
-
-$comment-txt-color: $global-txt-color;
 
 $submit-bcg-color: $patina;
 $submit-txt-color: $site-bcg-color;

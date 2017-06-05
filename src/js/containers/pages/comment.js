@@ -82,7 +82,7 @@ export default class CommentPageContainer extends Container {
             sPageTitle = "chargement…";
             $content = ( <Loading /> );
         } else if ( this.state.currentPlace ) {
-            sPageTitle = `Ajouter un commentaire sur ${ this.state.currentPlace.name }`;
+            sPageTitle = `Commenter`;
             $content = ( <Place { ...this.state.currentPlace } /> );
             $form = ( <CommentForm onSubmit={ this.handleCommentSubmit.bind( this ) } /> );
         } else {

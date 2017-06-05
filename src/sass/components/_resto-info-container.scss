@@ -1,0 +1,18 @@
+.resto-info-container {
+  font-weight: 500;
+  margin-bottom: 1.6em;
+  position: relative;
+
+  &--open{
+    color: $open-restaurant-txt-color;
+    background-color: $open-restaurant-bcg-color;
+  }
+
+  &--closed{
+    color: $closed-restaurant-txt-color;
+    background-color: $closed-restaurant-bcg-color;
+    font-style: italic;
+    border-left: 6px solid $closed-restaurant-txt-color;
+    padding-left: .4em;
+  }
+}

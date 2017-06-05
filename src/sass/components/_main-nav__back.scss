@@ -1,3 +1,15 @@
-.main-nav__about {
+.main-nav__back {
+  position: absolute;
+  top: 8.7em;
+  left: 1.2307692307692307692307692307692em;
+  color: $retour-txt-color;
+  background-color: $retour-bcg-color;
+  padding: 0 .6em .06em;
+  border-radius:.25em;
+  font-size: .8125em;
 
+  &:hover{
+    color: $retour-hover-txt-color;
+    background-color: $retour-hover-bcg-color;
+  }
 }

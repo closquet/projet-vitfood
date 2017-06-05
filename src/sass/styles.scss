@@ -11,11 +11,36 @@
 @import "base/headings";
 @import "base/header";
 @import "base/main";
+@import "base/links";
+@import "base/button";
+@import "base/form";
 
 
 @import "components/main-nav__about";
 @import "components/main-nav__back";
-@import "components/resto-list__resto";
+@import "components/resto-list";
+@import "components/resto-info-container";
+@import "components/resto-info-container__nom";
+@import "components/resto-info-container__adresse";
+@import "components/resto-info-container__statut";
+@import "components/resto-info-container__distance";
+@import "components/details-resto";
+@import "components/details-resto__map";
+@import "components/details-resto__rest-dispo";
+@import "components/details-resto__resto-statut-msg";
+@import "components/details-resto__resto-info";
+@import "components/details-resto__horaire-list__un-jour";
+@import "components/details-resto__horaire-list__jour-nom";
+@import "components/details-resto__com-bouton";
+@import "components/details-resto__com";
+@import "components/details-resto__com__nom";
+@import "components/details-resto__com__date";
+@import "components/details-resto__com__contenu";
+@import "components/details-resto__com__com-taux-container";
+@import "components/details-resto__com__taux-msg";
+@import "components/details-resto__com__com-taux";
+@import "components/form-alert-msg";
+@import "components/about-content";
 
 
 

@@ -1,0 +1,11 @@
+.about-content {
+  margin-bottom: 1em;
+  color: $about-content-txt-color;
+  max-width: 35em;
+
+  & ~ img{
+    width: 100%;
+    height: auto;
+    max-width: 30em;
+  }
+}
